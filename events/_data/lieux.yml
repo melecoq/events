@@ -8,7 +8,7 @@
   phone: +33 (0)1 53 59 58 60
   iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.7308292808384!2d2.3548194157439437!3d48.84427277928604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671f05b9ed7a7%3A0x22e3cfecb6cb7688!2zR3JhbmQgQW1waGl0aMOpw6J0cmUgZHUgTXVzw6l1bQ!5e0!3m2!1sfr!2sfr!4v1454600058649" width="910" height="485" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-- name: Lav cave "Esclangon"
+- name: La cave "Esclangon"
   idLink: to-cave
   place: Université Pierre et Marie Curie
   room: Bâtiment Esclangon
@@ -17,3 +17,14 @@
   city: Paris
   phone: +33 (0)1 53 59 58 60
   iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.682456847198!2d2.35510541574398!3d48.845195379286125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671f06342e935%3A0x5b5945cfb180dfaa!2sB%C3%A2timent+Esclangon!5e0!3m2!1sfr!2sfr!4v1454669556411" width="910" height="485" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+- name: Salle de conférence
+  idLink: to-conf
+  place: Muséum National d'Histoire Naturelle
+  room: Salle de conférence, bâtiment de géologie
+  address: 43, rue Buffon
+  postcode: 75000
+  city: Paris
+  phone: +33 (0)1 53 59 58 60
+  link: 
+  iframe: <iframe width="938" height="485" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?client=firefox-a&amp;channel=fflb&amp;q=43+rue+buffon+paris&amp;ie=UTF8&amp;hq=&amp;hnear=43+Rue+Buffon,+75005+Paris,+%C3%8Ele-de-France,+France&amp;t=m&amp;ll=48.84204,2.359335&amp;spn=0.006849,0.020106&amp;z=16&amp;iwloc=A&amp;output=embed&amp;controls=0"></iframe>
