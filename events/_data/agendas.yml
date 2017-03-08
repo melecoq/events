@@ -1,0 +1,40 @@
+- horaire: '09:30'
+  title: Début de la formation
+  description: none
+  presentation: none
+  intervenant: none
+  jour: 1
+
+- horaire: 09:30 - 9:45
+  title: Ouverture de la formation
+  description: Tour de table & questions pratiques
+  intervenant: none
+  presentation: none
+  jour: 1
+
+- horaire: 9:45 - 10:00
+  title: Présentation du GBIF et du GBIF France
+  description: none
+  intervenant: Anne-Sophie Archambeau
+  presentation: none
+  jour: 1
+
+- horaire: 10:00 - 10:30
+  title: Présentation du GBIF.org
+  description: none
+  intervenant: Fabien Cavière
+  presentation: none
+  jour: 2
+
+- horaire: 10:30 - 11:00
+  title: pause café / thé
+  description: none
+  presentation: none
+  jour: 3
+
+- horaire: 11:00 - 12:30
+  title: Présentation des API
+  description: none
+  intervenant: Marie-Elise Lecoq
+  presentation: none
+  jour: 3

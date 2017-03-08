@@ -1,0 +1,51 @@
+---
+layout: page
+title: Agenda
+permalink: agenda
+---
+
+
+{% if site.totalJour == 1 %}
+<h5>{{ site.jourDeb }}</h5>
+<table class="table table-bordered" >
+	<tr>
+		<th class="schedule"> Horaire </th>
+		<th class="description"> Description </th>
+		<th class="speaker"> Intervenant(e)(s)</th>
+	</tr>
+
+	{% for item in site.data.agendas%}
+		<tr>
+			<td>{{item.horaire}}</td>
+			{% if item.intervenant== 'none' %} 
+				<td colspan="2"><strong>{{item.title}}</strong> 
+					{% if item.description != 'none' %} 
+						<br /> {{item.description}}
+					{% endif %}</td>
+			{% else %} 
+				<td>
+					<strong>{{item.title}}</strong> <br /> 
+					{% if item.description != 'none' %} 	
+						{{item.description}}
+					{% endif %}
+					{% if item.presentation != 'none' %} 
+						Présentation : <a href="{{item.presentation}}" target="_blank">format PDF</a>
+					{% endif %}
+				</td>
+				<td> {{item.intervenant}}</td>
+			{% endif %}
+		</tr>
+	{% endfor %}	
+</table>
+{% endif %}
+
+{% if site.totalJour > 1 %}
+	{% assign total = {{site.nbrJour}} %}
+	<h5>{{ site.jourDeb }}</h5>
+	<p> {{ site.nbrJour }} </p>
+	{% for day in (1..total) %}
+		<h5>{{ site.jourDeb }}</h5>
+		plop
+		{{day}}
+	{% endfor %}
+{% endif%}

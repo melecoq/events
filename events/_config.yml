@@ -32,3 +32,8 @@ markdown: kramdown
 theme: minima
 
 header: img/header_formation_site.png
+
+totalJour: 3
+
+jourDeb: '27/06/2017'
+jourFin: '28/06/2017'
