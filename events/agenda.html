@@ -40,12 +40,9 @@ permalink: agenda
 {% endif %}
 
 {% if site.totalJour > 1 %}
-	{% assign total = {{site.nbrJour}} %}
-	<h5>{{ site.jourDeb }}</h5>
-	<p> {{ site.nbrJour }} </p>
-	{% for day in (1..total) %}
-		<h5>{{ site.jourDeb }}</h5>
-		plop
-		{{day}}
+	
+	{% assign total = {{site.totalJour}} %}
+	{% for day in (0..total) %}
+		<h5>{{ site.jourDeb | date: "%d/%m/%Y" | plus: day}}</h5>
 	{% endfor %}
 {% endif%}

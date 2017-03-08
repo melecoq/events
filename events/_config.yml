@@ -33,7 +33,7 @@ theme: minima
 
 header: img/header_formation_site.png
 
-totalJour: 3
+totalJour: 2 #nombre de jour -1 cad jour1 = 0, jour2=1, etc.
 
-jourDeb: '27/06/2017'
-jourFin: '28/06/2017'
+jourDeb: '30/06/2017'
+jourFin: '2/07/2017'
