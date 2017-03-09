@@ -1,3 +1,14 @@
+- name: Nom de la salle #où se situera l'événement
+  idLink: to-ex #lien pour le sommaire de la page
+  place: Institution #où se situera l'événement
+  room: Nom de la salle plus détaillé #où se situera l'événement
+  address: Addresse #où se situera l'événement
+  postcode: Code poste #où se situera l'événement
+  city: Ville #où se situera l'événement
+  phone: Téléphone
+  iframe: Pour intégrer l'iFrame, suivre les indications suivantes  <br /> 1) aller sur Google Map et définir l'addresse <br /> 2) Cliquer sur "Partager" puis sur "Intégrer la carte" <br /> 3) Copier l'iframe et le copier ici
+
+
 - name: Grand Amphithéâtre du Muséum
   idLink: to-gam
   place: Muséum national d'Histoire naturelle 

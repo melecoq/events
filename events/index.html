@@ -1,23 +1,42 @@
 ---
-layout: default
+layout: page
 ---
 
 <div class="home">
+  <div class="entete">
+    <h2>{{ site.title }}</h2>
+    <h3>{{ site.description }}</h3>
+    <br/>
+    <h4>{{ site.date }} - {{ site.city }} </h4>
+    <h4>{{ site.institution }}</h4>
+    <h4>{{ site.room }} - {{ site.address }} {{ site.postcode }} {{ site.city }}</h4>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="corps">
+    <p>
+      <b>{{ site.inscription }}</b>
+      <br /> 
+      <br />
+      {{ site.descriptionLongue }}
+      <br />
+      <br />
+      Vous trouverez le programme ainsi que toutes les informations pratiques dans la section "Informations".
+    </p>  
+  </div>
+  <div class="col-md-12">
+    <div class="col-md-4">
+      <h5 class="text-left">Nous contacter</h5>
+      <div class="adresse1">
+        <address>
+          <strong>GBIF France </strong><br>
+          MnHn - Géologie<br>
+          43 rue Buffon CP48<br>
+          75005 Paris<br>
+          <abbr>Téléphone :</abbr> +33 (0)1 40 79 80 65 <br>
+          Email : gb<span>if@gb</span>if.<span>fr</span>
+        </address>
+      </div>
+    </div>
+    <br />
+  </div>
 </div>

@@ -15,12 +15,24 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: Formation sur les API du GBIF
+title: Titre de l'événement
 email: gbif@gbif.fr
-description: Site de la formation sur les API du GBIF proposée par le GBIF France. 
+description: Description de l'événement
+
+city: Ville # où aura lieu l'événement
+insitution: Institution # où se déroulera l'événement 
+room: Salle # où se déroulera de l'événement
+address: Addresse # où se déroulera l'événement
+postcode: Code poste # de la ville où se déroulera l'événement
+
+descriptionLongue: Description de l'événement avec les points principaux (voir <a href="http://formation-ecoscope.gbif.fr" target="_blank"> le site de la formation GBIF France - Ecoscope </a> pour des idées). A noté que les codes <strong> HTML </strong> devront être écrit dans la description longue. <br /> <br /> Les éléments sont a changé dans le fichier _config.yml.
+inscription: Les informations sur l'inscription
+# Les inscriptions seront ouvertes le 20 avril 2017
+# Inscription obligatoire et gratuite dans la limite des places disponibles. Pour cela, nous vous invitons à remplir le formulaire situé dans la partie "Inscription". Afin de finaliser celle-ci, un mail de validation vous sera envoyé par l'équipe du GBIF France.
+# Les inscriptions sont closes.
 
 baseurl: "" 
-url: "http://formation-api.gbif.fr" 
+url: "url du site de l'événement" 
 
 twitter_username: gbiffrance
 github_username:  gbiffrance
@@ -31,9 +43,10 @@ encoding: utf-8
 markdown: kramdown
 theme: minima
 
-header: img/header_formation_site.png
+header: img/header_formation_site.png # lien vers l'image de l'entête de la formation
 
-totalJour: 2 #nombre de jour -1 cad jour1 = 0, jour2=1, etc.
+date: Date en mode litérale de la formation #date en mode literral pour être affiché sur la page d'accueil
+totalJour: 3 #nombre total de jour de la formation
 
-jourDeb: '30/06/2017'
-jourFin: '2/07/2017'
+presentation: none #ajout lorsque le fichier zip regroupant les fichiers présentations
+agenda: none #ajout du lien vers l'agenda en .PDF

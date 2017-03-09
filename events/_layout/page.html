@@ -1,13 +1,13 @@
 <html>
     <body>
-    {% include header.html %}
-        {{ content }}
-    {% include footer.html %}
+	    {% include header.html menu.html %}
+	        {{ content }}
+	    {% include footer.html %}
 
     
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_apikey }}"></script>
-    <script src="{{ site.github.url }}/js/all.min.js"></script>
-</body>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    	<script src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_apikey }}"></script>
+    	<script src="{{ site.github.url }}/js/all.min.js"></script>
+	</body>
 </html>

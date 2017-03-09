@@ -1,3 +1,13 @@
+- name: Nom hôtel
+  address: Address de l'hotel
+  postcode: Code postal # de la ville où se situe l'hotel 
+  town: Ville # où se situe l'hôtel
+  phone: Téléphone #de l'hotel
+  fax: Fax #de l'hotel
+  email: address e-mail #avec des < s p a n > à l'intérieur
+  website: www.google.fr
+  info:  Description des chambres proposés par l'hôtel (type = prix <br> [..] <br> Petit-déjeuner = prix <br> TVA et/ou taxe touristique inclus / non inclus)
+
 - name: Citadines Austerlitz Paris
   address: 27, rue Esquirol
   postcode: 75013 

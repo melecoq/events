@@ -12,29 +12,31 @@
   presentation: none
   jour: 1
 
-- horaire: 9:45 - 10:00
-  title: Présentation du GBIF et du GBIF France
+- horaire: '09:30'
+  title: Début de la deuxième journée de formation
   description: none
-  intervenant: Anne-Sophie Archambeau
   presentation: none
-  jour: 1
-
-- horaire: 10:00 - 10:30
-  title: Présentation du GBIF.org
-  description: none
-  intervenant: Fabien Cavière
-  presentation: none
+  intervenant: none
   jour: 2
 
-- horaire: 10:30 - 11:00
-  title: pause café / thé
+- horaire: 9:45 - 10:00
+  title: Titre présentation
+  description: Description de la présentation (facultatif)
+  intervenant: Prénom et nom de l'intervenant
+  presentation: file/presentation.pdf
+  jour: 2
+
+- horaire: '09:30'
+  title: Début de la troisième journée de formation
   description: none
   presentation: none
+  intervenant: none
   jour: 3
 
-- horaire: 11:00 - 12:30
-  title: Présentation des API
-  description: none
-  intervenant: Marie-Elise Lecoq
-  presentation: none
+- horaire: 9:45 - 10:00
+  title: Titre présentation
+  description: Ajout, modification et suppression à faire dans le fichier _data/agends.yml
+  intervenant: Prénom et nom de l'intervenant <br /> Prénom et nom du deuxième intervenant (ajout de <br /> entre les deux)
+  presentation: none 
   jour: 3
+
