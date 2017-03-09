@@ -1,0 +1,26 @@
+<html>
+    <body>
+    	<div class="container">
+			{% include header.html %}
+			PLOPPPP
+			<section>
+				<div class="container">
+  					<div id="date">
+          			<script language="javascript">
+        				today = new Date();
+        				var options = {
+          					weekday: "long", year: "numeric", month: "long", day: "2-digit"
+        				};
+        				document.write(today.toLocaleDateString("fr-fr", options));                   
+      				</script>
+    			</div>
+    		</div>
+			{{ content }}
+			{% include footer.html %}
+    	</div>
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    	<script src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_apikey }}"></script>
+    	<script src="{{ site.github.url }}/js/all.min.js"></script>
+	</body>
+</html>
