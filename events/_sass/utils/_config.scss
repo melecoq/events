@@ -16,8 +16,9 @@ $base-line-height: 1.5;
 
 // COLORS
 $text-color:       #111;
-$background-color: #F2F2F2;
-$brand-color:      #2a7ae2;
+$backgroundColorPrimary: #F2F2F2;
+$backgroundColorSecondary:  #FFFFFF;
+$brand-color: #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -26,6 +27,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 //SPACING
 $spacing-unit:     15px;
+$width: 1000px;
+$height-header: 20px;
 
 // BREAKPOINTS
 $screen-xs: 480px;

@@ -1,0 +1,82 @@
+
+#footer-link li{
+    margin: 4 5 4 5;
+}
+
+#footer-link li{
+    margin: 4 5 4 5;
+}
+
+#footer-link li a {
+    text-decoration: none;
+    color: $backgroundColorSecondary;
+}
+
+.footer-margin{
+	margin-bottom: 5px;
+}
+
+.region-footer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 96%;
+    color: white;
+}
+
+.region-footer .contenu_page {
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: -moz-linear-gradient(top, rgba(136,126,124,1) 0%, rgba(163,153,150,0.82) 99%, rgba(163,153,150,0.82) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,126,124,1)), color-stop(99%,rgba(163,153,150,0.82)), color-stop(100%,rgba(163,153,150,0.82)));
+    background: -webkit-linear-gradient(top, rgba(136,126,124,1) 0%,rgba(163,153,150,0.82) 99%,rgba(163,153,150,0.82) 100%);
+    background: -o-linear-gradient(top, rgba(136,126,124,1) 0%,rgba(163,153,150,0.82) 99%,rgba(163,153,150,0.82) 100%);
+    background: -ms-linear-gradient(top, rgba(136,126,124,1) 0%,rgba(163,153,150,0.82) 99%,rgba(163,153,150,0.82) 100%);
+    background: linear-gradient(to bottom, rgba(136,126,124,1) 0%,rgba(163,153,150,0.82) 99%,rgba(163,153,150,0.82) 100%);
+    padding-top: 5px;
+}
+
+.region-footer ul {
+    margin: 1% 0% 0% 0%;
+    padding: 0%;
+}
+
+.region-footer ul li {
+    display: inline;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.region-footer ul li a {
+    display: inline-block;
+    color: white;
+}
+
+.region-footer ul.social_icons li {
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}
+
+.region-footer .nav li a {
+    padding-left: 0.5%;
+}
+
+.region-footer .nav li a:hover {
+    background-color: transparent;
+}
+
+.region-footer .contextual-links-region {
+    line-height: 100%;
+}
+
+.social{
+	padding-top: 10px;
+}

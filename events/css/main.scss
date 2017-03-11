@@ -3,11 +3,16 @@
 ---
 @charset "utf-8";
 
-@import "utils/config";
-
 @import "_bootstrap";
 
-@import "base/header";
+@import "utils/config";
 @import "base/global";
+@import "base/header";
+@import "base/footer";
+
+
+
+
+
 
 
