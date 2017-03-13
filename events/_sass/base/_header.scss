@@ -1,7 +1,6 @@
 #header {
     margin: 2% 2% 0% 2%;
     background-color: $backgroundColorSecondary;
-    height: $height-header;
     -webkit-border-top-left-radius: 1%;
     -webkit-border-top-right-radius: 1%;
     -moz-border-radius-topleft: 1%;
@@ -9,7 +8,6 @@
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
     border-radius: 10px 10px 0px 0px;
-    width: $width;
     margin-left:auto;
     margin-right:auto;
 }
@@ -113,3 +111,94 @@ ul.nav ul > li {
     color: #000000;
 }
 
+@media (min-width: 768px){
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        float: left;
+    }
+
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-header .nav {
+        font-size: 75%;
+    }
+    
+    .navbar-header .nav>li:hover {
+        border-bottom: 5px solid #CB3B59;
+    }
+
+    .navbar-header .nav>li {
+        display: inline-block;
+        font-size: 102%;    /*  MAJ 92%;    */
+        margin: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .navbar-header .nav > li > a {
+        padding: 10% 0% 0% 0%;
+        margin-top : 16%;   /*  MAJ 15%;    */
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar-header .nav {
+        font-size: 88%;
+    }
+
+    .navbar-header .nav > li {
+        margin: 1.5%;       /*  MAJ 1.5%    */
+        padding-bottom: 2%;
+        margin-top: -4px;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    
+    .col-sm-12 {
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #header {
+        margin-top: 0.85%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1170px;
+        height: 160px;
+    }
+    
+    .menu_navigation {
+        width: 70%;
+    }   
+    
+    .navbar-header {
+        padding: 0%;
+    }
+    
+    .container{
+        width: 1170px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
