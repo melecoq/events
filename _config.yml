@@ -20,8 +20,23 @@ description: Description de l'événement
 baseurl: "https://melecoq.github.io/events" # the subpath of your site, e.g. /blog
 url: "https://melecoq.github.io/events" # the base hostname & protocol for your site, e.g. http://example.com
 
+# baseurl:
+# url:
+
 twitter_username: gbiffrance
 github_username:  gbiffrance
+
+widgets:
+  - title: Theme
+    url: theme
+    archor: true
+  - title: Partenaires
+    url: partenaires
+    archor: true
+  - title: Participants
+    url: participants
+    archor: true
+
 
 # Build settings
 markdown: kramdown
