@@ -17,11 +17,11 @@ title: Titre de l'événement
 email: gbif@gbif.fr
 description: Description de l'événement
 
-baseurl: "https://melecoq.github.io/events" # the subpath of your site, e.g. /blog
-url: "https://melecoq.github.io/events" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "https://melecoq.github.io/events" # the subpath of your site, e.g. /blog
+# url: "https://melecoq.github.io/events" # the base hostname & protocol for your site, e.g. http://example.com
 
-# baseurl:
-# url:
+baseurl:
+url:
 
 twitter_username: gbiffrance
 github_username:  gbiffrance
