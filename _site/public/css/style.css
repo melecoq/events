@@ -1,15 +1,12 @@
 /* HEADER */
 
-body{
-    position: relative;
-    overflow-y: scroll;
-}
 
 .header {
     /*padding: 10px 0;*/
     color: #fff;
     width: 100%;
     background-color:#887E7C;
+    position: fixed;
 
     /*background: -moz-linear-gradient(top, rgba(136,126,124,1) 0%, rgba(163,153,150,0.82) 99%, rgba(163,153,150,0.82) 100%); /* FF3.6+ */
     /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,126,124,1)), color-stop(99%,rgba(163,153,150,0.82)), color-stop(100%,rgba(163,153,150,0.82))); /* Chrome,Safari4+ */
@@ -97,9 +94,6 @@ footer ul li{
 } 
 
 /* A RETIRER */
-#entete{
+#participants{
     background-color: #CC424E;
 }
-#contacts{
-    background-color: #CC424E;
-} 
