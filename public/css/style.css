@@ -1,5 +1,10 @@
 /* HEADER */
 
+body{
+    position: relative;
+    overflow-y: scroll;
+}
+
 .header {
     /*padding: 10px 0;*/
     color: #fff;
@@ -89,4 +94,12 @@ footer ul li{
 #footer-link li a {
     text-decoration: none;
     color: #FFFFFF;
+} 
+
+/* A RETIRER */
+#entete{
+    background-color: #CC424E;
+}
+#contacts{
+    background-color: #CC424E;
 } 
